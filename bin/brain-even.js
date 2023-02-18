@@ -21,7 +21,7 @@ const startGame = (questionAndAnswer, description) => {
       return;
     }
   }
-  console.log(`Congratualtions ${name}!`);
+  console.log(`Congratulations ${name}!`);
 };
 
 const questionAndAnswer = () => {
