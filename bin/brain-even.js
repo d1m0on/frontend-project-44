@@ -31,5 +31,5 @@ const questionAndAnswer = () => {
 };
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const start = startGame(questionAndAnswer, description);
+const start = () => startGame(questionAndAnswer, description);
 start();
