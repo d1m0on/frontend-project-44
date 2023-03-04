@@ -43,7 +43,7 @@ const startGame = (questionAndAnswer, description) => {
 // функция проверки ответа на вопрос
 const questionAndAnswer = () => {
   const question = getExpression();
-  const answer = isExpressionEquall(question) ? 'yes' : 'no';
+  const answer = isExpressionEquall(question);
   return [question, answer];
 };
 const description = 'What is the result of the expression?';
