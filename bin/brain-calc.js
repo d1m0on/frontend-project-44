@@ -40,7 +40,8 @@ const startGame = (questionAndAnswer, description) => {
 const questionAndAnswer = () => {
   const question = getExpression();
   // eslint-disable-next-line no-eval
-  const answer = eval(question);
+  const rightAnswer = eval(question);
+  const answer = rightAnswer.toString();
   return [question, answer];
 };
 const description = 'What is the result of the expression?';
