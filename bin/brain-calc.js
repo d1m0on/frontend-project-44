@@ -15,6 +15,7 @@ const getExpression = () => {
 };
 
 // функция расчета случайного выражения
+// eslint-disable-next-line radix
 const isExpressionEquall = (expression) => parseInt(expression);
 
 // логика игры
