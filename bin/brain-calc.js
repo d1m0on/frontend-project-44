@@ -7,7 +7,7 @@ const randomNumber = (min = 1, max = 99) => Math.round(Math.random() * (max - mi
 // функция получения случайного выражения
 const getExpression = () => {
   const operations = ['+', '-', '*'];
-  const operation = Math.floor(Math.random() * operations.length);
+  const operation = operations[Math.floor(Math.random() * operations.length)];
   const num1 = randomNumber();
   const num2 = randomNumber();
   const expression = `${num1} ${operation} ${num2}`;
