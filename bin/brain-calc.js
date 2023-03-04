@@ -14,10 +14,6 @@ const getExpression = () => {
   return expression;
 };
 
-// функция расчета случайного выражения
-// eslint-disable-next-line radix
-const isExpressionEquall = (expression) => parseInt(expression);
-
 // логика игры
 const rounds = 3;
 const startGame = (questionAndAnswer, description) => {
@@ -43,7 +39,8 @@ const startGame = (questionAndAnswer, description) => {
 // функция проверки ответа на вопрос
 const questionAndAnswer = () => {
   const question = getExpression();
-  const answer = isExpressionEquall(question);
+  // eslint-disable-next-line no-eval
+  const answer = eval(question);
   return [question, answer];
 };
 const description = 'What is the result of the expression?';
