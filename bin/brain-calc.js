@@ -14,6 +14,9 @@ const getExpression = () => {
   return expression;
 };
 
+// функция расчета случайного выражения
+const isExpressionEquall = (expression) => parseInt(expression);
+
 // логика игры
 const rounds = 3;
 const startGame = (questionAndAnswer, description) => {
@@ -39,7 +42,7 @@ const startGame = (questionAndAnswer, description) => {
 // функция проверки ответа на вопрос
 const questionAndAnswer = () => {
   const question = getExpression();
-  const answer = eval(question) ? 'yes' : 'no';
+  const answer = isExpressionEquall(question) ? 'yes' : 'no';
   return [question, answer];
 };
 const description = 'What is the result of the expression?';
