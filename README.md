@@ -1,2 +1,3 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/e8b3f18211595fe6332d/maintainability)](https://codeclimate.com/github/d1m0on/frontend-project-44/maintainability)
 [![asciicast](https://asciinema.org/a/aNuMTzDAnujdGHjSzqLqJzyrW.svg)](https://asciinema.org/a/aNuMTzDAnujdGHjSzqLqJzyrW)
+[![asciicast](https://asciinema.org/a/SGPzy5Mg2q99BKzpIVYEdOqui.svg)](https://asciinema.org/a/SGPzy5Mg2q99BKzpIVYEdOqui)
