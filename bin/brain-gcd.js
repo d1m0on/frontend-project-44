@@ -15,8 +15,10 @@ const getExpression = () => {
 const getGcd = (num1, num2) => {
   while (num1 !== num2) {
     if (num1 > num2) {
+      // eslint-disable-next-line no-param-reassign
       num1 -= num2;
     } else {
+      // eslint-disable-next-line no-param-reassign
       num2 -= num1;
     }
   }
